@@ -87,7 +87,6 @@ CREATE TABLE government_bodies (
     `phone` VARCHAR(15) NOT NULL,
     `email` VARCHAR(45) NULL,
     `state_name` VARCHAR(30) NOT NULL,
-    -- `public_requests` VARCHAR(300) NOT NULL,
     PRIMARY KEY (`body_id`)
 );
 ALTER TABLE government_bodies ADD CONSTRAINT FOREIGN KEY (`state_name`) REFERENCES states(`name`) ON DELETE CASCADE ON UPDATE CASCADE;
