@@ -1,0 +1,58 @@
+/* Home.css */
+
+/* Overall page styles */
+.Home {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 10px
+}
+
+.heading {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+.Buttons {
+    display: flex;
+    justify-content: space-between;
+    /* Make buttons span the entire screen width */
+    margin-top: 20px;
+}
+
+button.category {
+    flex: 1;
+    /* Make buttons span the available space */
+    /* background-color: white; */
+    color: black;
+    border: solid 1px black;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#content {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* h1 {
+    font-size: 18px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 16px;
+    color: #007BFF;
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+} */
