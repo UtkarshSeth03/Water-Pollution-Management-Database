@@ -183,6 +183,7 @@ const ViewLakeDetails = () => {
                                         <p style = {informationStyle}>Chemical Composition: {details[1][id]["chemical_composition"]}</p>
                                         <p style = {informationStyle}>Concentration: {details[1][id]["concentration"]}</p>
                                         <p style = {informationStyle}>Effect: {details[1][id]["effect"]}</p>
+                                        <p style = {informationStyle}>Source: {details[1][id]["source"]}</p>
                                         <p style = {informationStyle}>Type: {details[1][id]["pollutant_type"]}</p>
                                         <p style = {informationStyle}>Severity: {details[1][id]["severity"]}</p>
                                         <div>
